@@ -77,26 +77,40 @@ input::placeholder {
     font-family: 'Circular-light';
     display: flex;
     justify-content: center;
-
 }
+
+input[type=text],
+input[type=email] {
+    font-family: 'Circular-light';
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
 #name, #email{
     width: 100%;
     height: 4rem;
     border: 0.2px solid rgb(168, 166, 166);
     border-radius: 5px;
 }
+a {
+    text-decoration: none;
+}
 
-.login {
+#login {
+    
     background: #1ed760;
     color: #000;
+    font-family: 'Circular';
     width: 10rem;
     padding: 1rem 1.6rem;
     border: 0;
     border-radius: 40px;
     font-size: 1.1rem;
     cursor: pointer;
+    
 }
-.login:hover {
+#login:hover {
+    text-decoration: none;
     padding: 1.03rem 1.63rem;
     font-size: 1.13rem;
     background: #1deb65;
