@@ -413,14 +413,14 @@ footer a:hover {
 
 @media (max-width: 375px) {
     .header-container {
-        height: 5rem;
+        height: 4rem;
     }
     
     .content {
         padding: 1rem 1rem;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .main-container {
         height: 80vh;
@@ -428,10 +428,11 @@ footer a:hover {
     }
     .milhoes {
         font-size: 0.8rem;
-        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .company, .comunity, .links {
-        font-size: .7rem;
+        font-size: .6rem;
     }
 
 }
