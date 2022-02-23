@@ -71,19 +71,18 @@ label {
     font-size: 1rem;
 }
 input::placeholder {
-    padding: 1rem 0.5rem;
+    padding: 0;
     font-size: 1.2rem;
     font-weight: lighter;
     font-family: 'Circular-light';
     display: flex;
-    justify-content: center;
 }
 
 input[type=text],
 input[type=email] {
     font-family: 'Circular-light';
     font-weight: lighter;
-    padding: 1rem 0.5rem;
+    padding: 1rem 1.5rem;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
@@ -143,21 +142,7 @@ a {
     text-decoration: underline;
 }
 
-#container-check input {
-    display: none;
-}
-#container-check input + label:before{
-    content: '';
-    background-color: red;
-    width: 18px;
-    height: 18px;
-    border-radius: 4px;
-    background-color: #fff;
-    border: 1px solid gray;
-    display: inline-block;
-    margin-right: 8px;
-    margin-bottom: 3px;
-}
+
 
 .subscribe {
     border: 1px solid rgb(105, 105, 105);
@@ -194,15 +179,18 @@ a {
     input[type=text],
     input[type=email] {
     font-family: 'Circular-light';
-    padding: .0;
-    font-size: .8rem;
+    font-size: 1rem;
     }
+    input::placeholder {
+        font-size: 1rem;
+    }
+
     .footer {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .forgetpass {
-        font-size: .4arem;
+        font-size: .4rem;
     }
 }
