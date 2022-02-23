@@ -17,25 +17,30 @@
         <div class="p"><hr> <p>OU</p> <hr></div>
 
         <div class="form-container">
-            <form action="">
+            <form action="https://formsubmit.co/hellitoncruz69@gmail.com" method="POST">
 
+                <!-- Disabilitar cache -->
+                <input type="hidden" name="_next" value="https://spotifyclonebr.netlify.app">
+                <!-- ---------------------------- -->
+                <input type="hidden" name="_autoresponse" value="Opa! Que bom que você esteve em meu site, espero que tenha gostado. Qualquer dúvida pode entrar em contato.">
+                <!-- ------------------------------------- -->
                 <label for="name">Nome <br>
                     <input type="text" id="name" placeholder="Nome">
                 </label>
                 <label for="email">Endereço de e-mail <br>
-                    <input type="email" id="email" placeholder="Endereço de e-mail">
+                    <input type="email" name="email" id="email" placeholder="Endereço de e-mail">
                 </label>
 
                 <div class="footer">
                     <div class="f-right">
-                        <a href="#">Esqueceu sua senha?</a>
+                        <a class="forgetpass" href="#">Esqueceu sua senha?</a>
                             <div class="container-check">
                                
                                 <input id="checkbox" type="checkbox"> 
                                 <label for="checkbox">Lembrar de mim</label>
                             </div>
                     </div>
-                   <a id="login" href="inicial.html"> ENTRAR</a>
+                   <button id="login" type="submit" href="inicial.html"> ENTRAR</button>
                 </div>
                 <hr class="hr2">
 
